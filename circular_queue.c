@@ -27,7 +27,7 @@ int isEmpty(){
     else if(front == rear+1 && checker == 0) return 1; //..
     else return 0;
 }
-void clear(){ //ovo da ocistimo stog
+void clear(){ //ovo da ocistimo red
     front = -1;
     rear = -1;
 }
